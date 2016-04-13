@@ -9,4 +9,5 @@
 <li> You must an emacs24 compatible version installed on your machine </li> 
 </ul>
 
-<img src="https://raw.githubusercontent.com/Prgrmman/emacs-config/master/screenshots/screenshot.png">  
+<img src="https://raw.githubusercontent.com/Prgrmman/emacs-config/master/screenshots/screenshot.png" width="50%" height= "50%">
+  
