@@ -1,5 +1,5 @@
 <h1 align="center">This is my emacs config</h1>
-<h2> ...featuring <b>evil-mode<b> and <b>helm</b></h2>
+<h2> ...featuring <b>evil-mode</b> and <b>helm</b></h2>
 
 <h3> To install </h3>
 <code> git clone https://github.com/Prgrmman/emacs-config ~/.emacs.d </code> 
