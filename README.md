@@ -1,5 +1,7 @@
+<div align="center">
 <h1>This is my emacs config</h1>
-<hr>
+</div>
+
 <h3> To install </h3>
 <code> git clone https://github.com/Prgrmman/emacs-config ~/.emacs.d </code> 
 
