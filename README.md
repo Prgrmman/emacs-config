@@ -6,9 +6,5 @@
 <h3> Requirements </h3>
 
 <ul>
-<li> You must an emacs24 compatible version installed on your machine </li>
-
-
-
-
+<li> You must an emacs24 compatible version installed on your machine </li> 
 </ul>
