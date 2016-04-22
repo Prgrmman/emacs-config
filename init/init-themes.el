@@ -1,4 +1,3 @@
-(load-theme 'spacemacs-dark t)
 ;; remove scrollbar
 (scroll-bar-mode -1)
 (setq truncate-partial-width-windows nil)
@@ -21,4 +20,6 @@
 
 
 
-(global-hl-line-mode 1)
+(global-hl-line-mode 1) ;; highlight the current lines
+(load-theme 'badwolf t) ;; enable badwolf theme
+(global-linum-mode 1) ;; enable line numbers on te side
