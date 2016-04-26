@@ -6,9 +6,11 @@
 
 (require 'powerline-evil)
 (require 'powerline)
-(if window-system
-    (powerline-evil-center-color-theme)
-(powerline-evil-vim-color-theme))
+;; (if window-system
+;;     (powerline-evil-center-color-theme)
+;; (powerline-evil-vim-color-theme))
+
+(powerline-evil-center-color-theme)
 
 ;; some stuff to set evil cursor colors
 (setq evil-emacs-state-cursor '("red" box))
