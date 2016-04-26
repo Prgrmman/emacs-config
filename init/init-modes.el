@@ -17,7 +17,7 @@
 ;; turn on helm mode
 (helm-mode 1)
 (global-set-key (kbd "C-x C-f") 'helm-find-files)
-
+(global-set-key (kbd "C-x C-b") 'helm-buffers-list)
 
 ;; add auto indentation for text in LaTex mode and text mode
 (add-hook 'tex-mode-hook 'turn-on-auto-fill)
