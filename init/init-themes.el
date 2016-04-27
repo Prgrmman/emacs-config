@@ -1,5 +1,5 @@
 ;; remove scrollbar
-(scroll-bar-mode -1)
+;;(scroll-bar-mode -1)
 (setq truncate-partial-width-windows nil)
 
 
