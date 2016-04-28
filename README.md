@@ -24,14 +24,13 @@
 
 <h3> Key remapping </h3>
 <ul>
-    <li> <b> Window navigation: </b> 
+    <li> <b> Window navigation: </b> </li> 
 	<ul>
 	    <li> <code> C-h </code>: switch to left window </li>
 	    <li> <code> C-j </code>: switch to right below </li>
 	    <li> <code> C-k </code>: switch to the window above </li>
 	    <li> <code> C-h </code>: switch to the right window </li>
 	</ul>
-    </li>
   <li> <code>C-x C-f</code> has been remapped from <code>find-files</code> to <code>helm-find-files</code></li>
   <li> While in normal mode, use <code> f </code> to toggle neotree file tree  </li>
     </ul>
