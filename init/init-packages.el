@@ -6,7 +6,7 @@
 (setq package-enable-at-startup nil)
 
 (setq package-list
-      '(evil powerline powerline-evil auctex haskell-mode org helm spacemacs-theme badwolf-theme flycheck neo-tree))
+      '(evil powerline powerline-evil auctex haskell-mode org helm spacemacs-theme badwolf-theme flycheck neotree))
 
 
 ;; activate packages
