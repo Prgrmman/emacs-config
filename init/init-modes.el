@@ -1,11 +1,11 @@
 
 
-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; turn on evil mode)
 (require 'evil)
 (evil-mode t)
 
-;; override evil key bindings
+;; add emacs bindings to evil states
 (define-key evil-normal-state-map "\C-e" 'evil-end-of-line)
 (define-key evil-insert-state-map "\C-e" 'end-of-line)
 (define-key evil-visual-state-map "\C-e" 'evil-end-of-line)
@@ -13,6 +13,14 @@
 (define-key evil-visual-state-map "\C-a" 'evil-beginning-of-line)
 (define-key evil-insert-state-map "\C-a" 'beginning-of-line)
 (define-key evil-normal-state-map " " 'other-window)
+
+;; add evil window navigation
+(define-key evil-normal-state-map (kbd "C-h") 'evil-window-left)
+(define-key evil-normal-state-map (kbd "C-j") 'evil-window-down)
+(define-key evil-normal-state-map (kbd "C-k") 'evil-window-up)
+(define-key evil-normal-state-map (kbd "C-l") 'evil-window-right)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; turn on helm mode
 (helm-mode 1)
