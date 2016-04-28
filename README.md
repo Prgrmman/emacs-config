@@ -7,7 +7,7 @@
 <h3> Requirements </h3>
 
 <ul>
-<li> You must an emacs24 compatible version installed on your machine </li> 
+<li> You must have an emacs24 compatible version installed on your machine </li> 
 </ul>
 <h3> Screenshot </h3>
 <img src="https://raw.githubusercontent.com/Prgrmman/emacs-config/master/screenshots/screenshot.png" width="50%" height= "50%">
@@ -26,4 +26,5 @@
 <ul>
   <li> While in normal mode, use <code> SPC </code> to switch between buffer windows </li>
   <li> <code>C-x C-f</code> has been remapped from <code>find-files</code> to <code>helm-find-files</code></li>
+  <li> While in normal mode, use <code> f </code> to toggle neotree file tree </li>
     </ul>
