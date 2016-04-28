@@ -27,6 +27,6 @@
 
 (add-hook 'prog-mode-hook
 	  (lambda ()
-	    (linum-mode)
+	    (relative-line-numbers-mode)
 	    (hl-line-mode 1))) ;; highlight the current lines
 	    
