@@ -20,7 +20,8 @@
 (setq evil-replace-state-cursor '("red" bar))
 (setq evil-operator-state-cursor '("red" hollow))
 
-
+;;disable the scroll bar
+(toggle-scroll-bar -1)
 
 (global-hl-line-mode 1) ;; highlight the current lines
 (load-theme 'badwolf t) ;; enable badwolf theme
