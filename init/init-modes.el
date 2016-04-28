@@ -30,6 +30,10 @@
 (add-hook 'emacs-lisp-mode-hook (lambda() (flycheck-mode 0)))
 
 
+(require 'neotree)
+(global-set-key [f8] 'neotree-toggle)
+(define-key evil-normal-state-map "f" 'neotree-toggle) 
+
 
 ;; fix indentation for c style languages
 (setq-default c-basic-offset 4)
