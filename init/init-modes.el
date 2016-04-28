@@ -12,7 +12,6 @@
 (define-key evil-normal-state-map "\C-a" 'evil-beginning-of-line)
 (define-key evil-visual-state-map "\C-a" 'evil-beginning-of-line)
 (define-key evil-insert-state-map "\C-a" 'beginning-of-line)
-(define-key evil-normal-state-map " " 'other-window)
 
 ;; add evil window navigation
 (define-key evil-normal-state-map (kbd "C-h") 'evil-window-left)
