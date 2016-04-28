@@ -21,8 +21,12 @@
 (setq evil-operator-state-cursor '("red" hollow))
 
 ;;disable the scroll bar
-(toggle-scroll-bar -1)
-
-(global-hl-line-mode 1) ;; highlight the current lines
+(scroll-bar-mode -1)
 (load-theme 'badwolf t) ;; enable badwolf theme
-(global-linum-mode 1) ;; enable line numbers on te side
+
+
+(add-hook 'prog-mode-hook
+	  (lambda ()
+	    (linum-mode)
+	    (hl-line-mode 1))) ;; highlight the current lines
+	    
