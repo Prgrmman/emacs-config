@@ -10,20 +10,15 @@
 ;;     (powerline-evil-center-color-theme)
 ;; (powerline-evil-vim-color-theme))
 
-(powerline-evil-center-color-theme)
+(powerline-default-theme)
 
 ;; some stuff to set evil cursor colors
-(setq evil-emacs-state-cursor '("red" box))
-(setq evil-normal-state-cursor '("green" box))
-(setq evil-visual-state-cursor '("orange" box))
-(setq evil-insert-state-cursor '("red" bar))
-(setq evil-replace-state-cursor '("red" bar))
-(setq evil-operator-state-cursor '("red" hollow))
 
 ;;disable the scroll bar
 (scroll-bar-mode -1)
 (load-theme 'badwolf t) ;; enable badwolf theme
-
+(require 'airline-themes)
+(load-theme 'airline-badwolf t)
 
 (add-hook 'prog-mode-hook
 	  (lambda ()
