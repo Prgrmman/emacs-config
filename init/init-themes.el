@@ -22,7 +22,6 @@
 
 (add-hook 'prog-mode-hook
 	  (lambda ()
-	    (relative-line-numbers-mode)
 	    (hl-line-mode 1)))
 
 ;;add space to line numbers
