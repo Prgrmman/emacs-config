@@ -2,7 +2,7 @@
 ;;(scroll-bar-mode -1)
 (setq truncate-partial-width-windows nil)
 
-
+(setq linum-format "%4d \u2502 ")
 
 (require 'powerline-evil)
 (require 'powerline)
@@ -23,5 +23,6 @@
 (add-hook 'prog-mode-hook
 	  (lambda ()
 	    (relative-line-numbers-mode)
-	    (hl-line-mode 1))) ;; highlight the current lines
-	    
+	    (hl-line-mode 1)))
+
+;;add space to line numbers
