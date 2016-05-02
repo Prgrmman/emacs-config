@@ -29,6 +29,9 @@
 ;; add auto indentation for text in LaTex mode and text mode
 (add-hook 'tex-mode-hook 'turn-on-auto-fill)
 (add-hook 'text-mode-hook 'turn-on-auto-fill)
+;; add latexmk support
+(require 'auctex-latexmk)
+(auctex-latexmk-setup)
 
 ;; turn on fly checking
 (global-flycheck-mode 1)
