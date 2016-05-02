@@ -48,3 +48,6 @@
 
 ;; fix indentation for c style languages
 (setq-default c-basic-offset 4)
+
+;; add timestamping to to org-mode
+(setq org-log-done 'time)
