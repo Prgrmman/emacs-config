@@ -1,8 +1,8 @@
 ;; remove scrollbar
 ;;(scroll-bar-mode -1)
 (setq truncate-partial-width-windows nil)
-
-(setq linum-format "%4d \u2502 ")
+(require 'linum-relative)
+(setq linum-format "%d ")
 
 (require 'powerline-evil)
 (require 'powerline)
@@ -20,8 +20,11 @@
 (require 'airline-themes)
 (load-theme 'airline-badwolf t)
 
+(add-to-list 'load-path "~/.emacs.d/plugins")
+(require 'indent-guide)
 (add-hook 'prog-mode-hook
 	  (lambda ()
+	    (linum-mode 1)
+	    (linum-relative-toggle)
+	    (indent-guide-mode 1)
 	    (hl-line-mode 1)))
-
-;;add space to line numbers
