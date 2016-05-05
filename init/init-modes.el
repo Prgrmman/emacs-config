@@ -44,10 +44,10 @@
 (global-set-key [f8] 'neotree-toggle)
 (define-key evil-normal-state-map "f" 'neotree-toggle) 
 (add-hook 'neotree-mode-hook
-            (lambda ()
-              (define-key evil-normal-state-local-map (kbd "TAB") 'neotree-enter)
-              (define-key evil-normal-state-local-map (kbd "q") 'neotree-hide)
-              (define-key evil-normal-state-local-map (kbd "RET") 'neotree-enter)))
+	  (lambda ()
+	    (define-key evil-normal-state-local-map (kbd "TAB") 'neotree-enter)
+	    (define-key evil-normal-state-local-map (kbd "q") 'neotree-hide)
+	    (define-key evil-normal-state-local-map (kbd "RET") 'neotree-enter)))
 
 ;; fix indentation for c style languages
 (setq-default c-basic-offset 4)
