@@ -25,6 +25,6 @@
 (add-hook 'prog-mode-hook
 	  (lambda ()
 	    (linum-mode 1)
-	    (linum-relative-toggle)
+	    (linum-relative-mode)
 	    (indent-guide-mode 1)
 	    (hl-line-mode 1)))
