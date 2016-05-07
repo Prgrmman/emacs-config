@@ -7,7 +7,7 @@
 (setq package-enable-at-startup nil)
 
 (setq package-list
-      '(evil powerline linum-relative powerline-evil airline-themes auctex haskell-mode org helm spacemacs-theme badwolf-theme flycheck neotree relative-line-numbers auctex-latexmk))
+      '(evil auto-complete powerline linum-relative powerline-evil airline-themes auctex haskell-mode org helm spacemacs-theme badwolf-theme flycheck neotree relative-line-numbers auctex-latexmk))
 
 ;; activate packages
 (package-initialize)
